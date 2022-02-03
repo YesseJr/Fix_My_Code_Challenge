@@ -1,4 +1,4 @@
-# WELCOME TO THE 0X00-CHALLENGE.
+# WELCOME TO THE 0x00-CHALLENGE.
 
 ### Description.
 * The 0x00-challenge is the first challenge in the series of the Fix my Code Challenges, let's call it episode number one.
