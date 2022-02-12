@@ -55,7 +55,6 @@ class User():
         if self.__password is None:
             return False
         return hashlib.md5(pwd.encode()).hexdigest().lower() == self.__password
-    # The bug was in this line above, where upper() method was used instead of lower() method, trust me!
 
 
 if __name__ == '__main__':
