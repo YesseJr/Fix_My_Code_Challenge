@@ -41,7 +41,6 @@ class User():
             self.__password = None
         else:
             self.__password = hashlib.md5(pwd.encode()).hexdigest().lower()
-            # Did you see the upper() method in the above line???
 
     def is_valid_password(self, pwd):
         """
